@@ -1,0 +1,31 @@
+{
+  "name": "gruph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elcoosp/gruph.git"
+  },
+  "keywords": [],
+  "author": "elcoosp <elcoosp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elcoosp/gruph/issues"
+  },
+  "homepage": "https://github.com/elcoosp/gruph#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "commitizen": "^2.10.1",
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
